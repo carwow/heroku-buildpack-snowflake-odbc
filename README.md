@@ -7,5 +7,5 @@ it, with the following in the Aptfile:
 
 ```
 unix-odbc
-https://github.com/carwow/heroku-buildpack-snowflake-odbc/blob/master/snowflake-odbc.deb?raw=true
+https://raw.githubusercontent.com/carwow/heroku-buildpack-snowflake-odbc/master/snowflake-odbc.deb
 ```
