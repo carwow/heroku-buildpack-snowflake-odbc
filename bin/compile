@@ -13,6 +13,7 @@ BUILD_DIR=$1
 #ENV_DIR=$3
 
 arrow "Installing unixODBC"
+apt-get update | indent
 apt-get install --yes unixodbc-dev | indent
 
 arrow "Installing Snowflake ODBC driver"
