@@ -17,4 +17,4 @@ cp simba.snowflake.ini "${BUILD_DIR}/.apt/usr/lib/snowflake/odbc/lib/simba.snowf
 
 arrow "Adding profile.d script"
 mkdir -p "${BUILD_DIR}/.profile.d" | indent
-cp .profile.d/configure-snowflake-odbc.sh "${BUILD_DIR}/profile.d" | indent
+cp .profile.d/configure-snowflake-odbc.sh "${BUILD_DIR}/.profile.d" | indent
