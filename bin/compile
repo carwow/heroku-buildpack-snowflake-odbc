@@ -13,7 +13,7 @@ BUILD_DIR=$1
 #ENV_DIR=$3
 
 arrow "Installing simba.snowflake.ini"
-cp simba.snowflake.ini /usr/lib/snowflake/odbc/lib/simba.snowflake.ini | indent
+cp simba.snowflake.ini "${BUILD_DIR}/.apt/usr/lib/snowflake/odbc/lib/simba.snowflake.ini" | indent
 
 arrow "Adding profile.d script"
 mkdir -p "${BUILD_DIR}/.profile.d" | indent
