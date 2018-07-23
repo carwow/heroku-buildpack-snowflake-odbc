@@ -6,6 +6,6 @@ This requires [heroku-buildpack-apt](https://github.com/heroku/heroku-buildpack-
 it, with the following in the Aptfile:
 
 ```
-unix-odbc
+unixodbc-dev
 https://raw.githubusercontent.com/carwow/heroku-buildpack-snowflake-odbc/master/snowflake-odbc.deb
 ```
